@@ -7,6 +7,5 @@ COPY src ./src
 
 # Run stage
 FROM openjdk:17
-VOLUME /tmp
 COPY --from=build /app/target/backend-hotel.jar backend-hotel.jar
 ENTRYPOINT [ "java","-jar","/backend-hotel.jar" ]
