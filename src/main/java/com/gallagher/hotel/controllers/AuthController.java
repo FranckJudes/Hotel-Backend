@@ -2,7 +2,6 @@ package com.gallagher.hotel.controllers;
 
 import com.gallagher.hotel.dto.auth.AuthResponse;
 import com.gallagher.hotel.dto.auth.LoginRequest;
-import com.gallagher.hotel.dto.auth.LogoutResponse;
 import com.gallagher.hotel.dto.auth.RegisterRequest;
 import com.gallagher.hotel.dto.responses.ApiResponse;
 import com.gallagher.hotel.services.AuthService;

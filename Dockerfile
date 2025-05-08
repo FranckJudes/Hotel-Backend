@@ -1,9 +1,9 @@
-# Build stage
+
 FROM maven:3.8-openjdk-17 AS build
 WORKDIR /app
 COPY pom.xml .
 COPY src ./src
-RUN mvnw clean package -DskipTests
+# RUN mvn clean package -DskipTests
 
 # Run stage
 FROM openjdk:17
