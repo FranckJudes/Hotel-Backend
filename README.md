@@ -1,5 +1,5 @@
 # Hotel-Backend
-# Hotel-Backend
+
 
 ## Présentation
 
@@ -20,7 +20,7 @@ Ce projet a été conçu pour servir de socle technique à une application web o
 ## Technologies utilisées
 
 - **Langage** :  Java
-- **Framework** : Spring Boot, Django
+- **Framework** : Spring Boot
 - **Base de données** : Mysql
 - **Authentification** : JWT, etc.
 - **Documentation API** : Swagger/OpenAPI (si disponible)
